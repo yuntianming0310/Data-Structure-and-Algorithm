@@ -207,3 +207,150 @@ function charCount(str) {
 ### Divide and Conquer
 
 ![alt text](image-15.png)
+
+## RECURSION
+
+### Story Time: Martin & The Dargon
+
+> Just a story to let you know about recursion...
+
+#### Objective
+
+![alt text](image-16.png)
+
+### Why Use Recursion
+
+#### What is Recursion
+
+> A **progress**(a function in out case) that **called itself**
+
+#### It's EVERYWHERE!
+
+- JSON.parse / JSON.stringify
+- document.getElementById and DOM traversal algorithms
+- Object traversal
+- We will see it with more complex data structure
+- It's sometimes a cleaner alternative to iteration
+
+### The Call Stack
+
+#### But first...let's talk about functions
+
+- In almost all program languages, there is a built in data structure that manages what happens when functions are invoked
+- It's named the **call stack!**
+
+#### The Call Stack
+
+![alt text](image-17.png)
+
+### Out First Recursive Function
+
+#### How recursive functions work
+
+Invoke the **same** function with a different input until you reach your base case
+
+#### The essantial parts of a recursive function!
+
+- Base Case
+- Different Input
+
+#### Where things go wrong
+
+- No base case
+- Forgetting to return or returning the wrong thing
+- Stack overflow!
+
+### Helper Method Recursion
+
+> Example
+
+```js
+function collectOddValues(arr) {
+  const result = []
+
+  function helper(helperInput) {
+    if (helperInput.length === 0) return
+
+    if (helperInput[0] % 2 !== 0) result.push(helperInput[0])
+
+    helper(helperInput.slice(1))
+  }
+
+  helper(arr)
+
+  return result
+}
+```
+
+### Pure Recursion
+
+```js
+function collectOddValues(arr) {
+  const newArr = []
+
+  if (arr.length === 0) return newArr
+  if (arr[0] % 2 !== 0) newArr.push(arr[0])
+
+  newArr = newArr.concat(collectOddValues(arr.slice(1)))
+  return newArr
+}
+```
+
+![alt text](image-18.png)
+
+#### Pure Recursion Tips
+
+![alt text](image-19.png)
+
+## SEARCHING ALGORITHMS
+
+### Intro to Searching
+
+#### Objectives
+
+![alt text](image-20.png)
+
+### Intro to Linear Search
+
+#### JavaScript has Search!
+
+![alt text](image-21.png)
+
+#### Linear Search
+
+![alt text](image-22.png)
+
+### Intro to Binary Search
+
+#### Pseudocode
+
+![alt text](image-23.png)
+
+### Native String Search
+
+#### Pseudocode
+
+![alt text](image-24.png)
+
+## DATA STRUCTURES INTRODUCTION
+
+### Which Data Structure Is The Best
+
+#### What Do They Do?
+
+![alt text](image-26.png)
+![alt text](image-25.png)
+
+#### Why So Many??
+
+> Different data structures excel at different things. Some are highly specialized, while others (like arrays) are more generally used.
+
+#### Why Care?
+
+> - The more time you spend as a developer, the more likely you'll need to use one of these data structures
+> - You've already worked with many of them unknowingly!
+> - And of course...INTERVIEWS
+
+## SINGLY LINKED LISTS
+
+### Intro to Singly Linked Lists

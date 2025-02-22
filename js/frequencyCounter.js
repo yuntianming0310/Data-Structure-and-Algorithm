@@ -89,3 +89,32 @@ function tc_validAnagram(first, second) {
 
   return true
 }
+
+function areThereDuplicates(...args) {
+  let result = {}
+
+  // 1) loop the args
+  // 2) mark up the el
+  // 3) if there has a value duplicated, just return true
+  // 4) unless, return false
+  for (let el of args) {
+    if (result[el]) return true
+    result[el] = 1
+  }
+
+  return false
+}
+
+function constructNote(message, letters) {
+  const frequencyCounter = {}
+  for (let char of letters) {
+    frequencyCounter[char] = (frequencyCounter[char] || 0) + 1
+  }
+
+  for (let char of message) {
+    if (frequencyCounter[char] >= 1) frequencyCounter[char]--
+    else return false
+  }
+
+  return true
+}

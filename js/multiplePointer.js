@@ -28,4 +28,20 @@ function countUniqueValues(arr) {
   return i + 1
 }
 
+function areThereDuplicates(...args) {
+  let i = 0
+  for (let j = i + 1; j < args.length; j++) {
+    if (args[i] !== args[j]) {
+      i++
+      args[i] = args[j]
+    } else {
+      return true
+    }
+  }
+
+  return false
+}
+
+console.log(areThereDuplicates(1, 2, 3, 4, 5, 1))
+
 // console.log(countUniqueValues([]))
