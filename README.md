@@ -354,3 +354,142 @@ function collectOddValues(arr) {
 ## SINGLY LINKED LISTS
 
 ### Intro to Singly Linked Lists
+
+#### What is a linked list?
+
+- A data structure that contains a **head**, **tail** and **length** property.
+- Linked Lists consist of nodes, and each **node** has a **value** and a **pointer** to another node or null
+
+#### Comparisons with Arrays
+
+- Lists
+  - Do not have indexes!
+  - Connected via nodes with a next pointer
+  - Random access is not allowed
+- Arrays
+  - Indexed in order!
+  - Insertion and deletion can be expensive
+  - Can quickly be accessed at a specific index
+
+## DOUBLY LINKED LISTS
+
+### Recap
+
+![alt text](image-27.png)
+
+## STACKS + QUEUES
+
+### Intro to Stacks
+
+#### Objectives
+
+![alt text](image-28.png)
+
+##### What is a stack?
+
+A **LIFO** data structure!
+
+The last element added to the stack will be the first element removed from the stack
+
+##### Where stacks are used
+
+- Managing function invocations
+- Undo / Redo
+- Routing (the history object) is treated like a stack!
+
+### Big O of Stacks
+
+![alt text](image-29.png)
+
+### Recap for Stack
+
+![alt text](image-30.png)
+
+### Intro to Queues
+
+#### Objectives
+
+![alt text](image-31.png)
+
+##### What is a Queue?
+
+A **FIFO** data structure
+
+##### We've seen this before
+
+> Queue exist everywhere! Think about the last time you waited in line...
+
+**How do we use them in programming?**
+
+- Background tasks
+- Uploading resources
+- Printing / Task processing
+
+### Big O of Queues
+
+![alt text](image-32.png)
+
+### Recap for Queue
+
+![alt text](image-33.png)
+
+## BINARY SEARCH TREES
+
+### Introduction to Trees
+
+#### Objectives
+
+![alt text](image-34.png)
+
+#### What is a tree?
+
+A data structure that consists of nodes in a **parent/child** relationship
+
+#### Tree Terminology
+
+- **Root**: The top node in a tree
+- **Child**: A node directly connected to another node when moving away from the Root
+- **Parent**: The converse notion of a child
+- **Siblings**: A group of nodes with the same parent
+- **Leaf**: A node with no children
+- **Edge**: The connection between one node and another
+
+### Uses For Trees
+
+> Lots of different applications!
+
+- HTML DOM
+- Network Routing
+- Abstract Syntax Tree
+- Artificial Intelligence
+  - ![alt text](image-35.png)
+- Folders in Operating Systems
+- Computer File Systems
+
+### Intro to Binary Trees
+
+#### Kinds of Trees
+
+- Trees
+- Binary Trees
+- Binary Search Trees
+
+#### BST - Binary Search Trees
+
+![alt text](image-36.png)
+
+### Searching a Binary Search Tree
+
+#### How BSTs Work
+
+- Every parent node has at most **two** children
+- Every node to the left of a parent node is **always less** than the parent
+- Every node to the right of a parent node is **always greater** than the parent
+
+### Big O of Binary Search Trees
+
+![alt text](image-37.png)
+
+## Tree Traversal
+
+### Intro to Tree Traversal
