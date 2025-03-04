@@ -493,3 +493,27 @@ A data structure that consists of nodes in a **parent/child** relationship
 ## Tree Traversal
 
 ### Intro to Tree Traversal
+
+#### Breadth-first Search & Depth-first Search
+
+**Breadth-first Search**
+
+> Stack
+
+---
+
+**Depth-first Search**
+
+> Queue
+
+- PreOrder
+- InOrder
+- PostOrder
+
+## BINARY HEAPS
+
+### Intro to Heaps
+
+### Heap: ExtractMax Intro
+
+#### Remove and Sink Down
