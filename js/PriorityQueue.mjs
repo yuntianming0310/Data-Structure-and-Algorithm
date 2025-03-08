@@ -1,22 +1,20 @@
-class Node {
-  constructor(val, pri) {
-    this.val = val
-    this.pri = pri
-  }
-}
+export default class PriorityQueue {
+  constructor(priorityUnit) {
+    if (!priorityUnit || typeof priorityUnit !== 'string') {
+      throw new Error('Priority unit is required and must be string')
+    }
 
-class PriorityQueue {
-  constructor() {
     this.queue = []
+    this.unit = priorityUnit
   }
 
-  push(node) {
+  enqueue(node) {
     this.queue.push(node)
 
     this._siftUp(this.queue, node, this.queue.length - 1)
   }
 
-  pop() {
+  dequeue() {
     if (!this.queue.length) return null
 
     const first = this.queue[0]
@@ -28,6 +26,10 @@ class PriorityQueue {
     }
 
     return first
+  }
+
+  isEmpty() {
+    return this.queue.length === 0
   }
 
   _siftUp(heap, node, index) {
@@ -74,13 +76,6 @@ class PriorityQueue {
   }
 
   _compare(a, b) {
-    return a.pri - b.pri
+    return a?.[this.unit] - b?.[this.unit]
   }
 }
-
-const priQ = new PriorityQueue()
-priQ.push(new Node('Algorithm', 0))
-priQ.push(new Node('Web Design', 1))
-priQ.push(new Node('Threejs Journey', 2))
-priQ.push(new Node('NestJs', 2))
-priQ.push(new Node('School Work', 1))

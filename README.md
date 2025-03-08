@@ -28,7 +28,7 @@ _Counting Operations_
 
 ### Performance Tracker
 
-![alt text](image.png)
+![alt text](img/image_0.png)
 
 ### Introducing...Big O
 
@@ -38,7 +38,7 @@ _Counting Operations_
 
 ### Big O Shorthands
 
-![alt text](image-1.png)
+![alt text](img/image_1.png)
 
 ### Space Complexity
 
@@ -46,11 +46,11 @@ We can also use big o Notation to analyze space complexity: how much addtional m
 
 ### Space Complexity in JS
 
-![alt text](image-2.png)
+![alt text](img/image_2.png)
 
 ### Recap
 
-![alt text](image-3.png)
+![alt text](img/image_3.png)
 
 ## PROBLEM SOLVING APPROACH
 
@@ -62,7 +62,7 @@ A **process** or **set of steps** to accomplish a certain task
 
 #### Why Do I Need To Know This
 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 #### Problem Solving
 
@@ -79,11 +79,11 @@ A **process** or **set of steps** to accomplish a certain task
 
 #### Understand The Problem
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 ### Step 2: Concrete Examples
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 ### Step 3: Break It Down
 
@@ -124,7 +124,7 @@ function charCount(str) {
 
 ### Step 5: Look Back and Refactor
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 ```js
 function charCount(str) {
@@ -177,19 +177,19 @@ function charCount(str) {
 
 #### Some Patterns...
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
 ### Frequency Counter Pattern
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
 #### Anagram
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
 ### Multiple Pointers Pattern
 
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 
 #### CountUniqueValues
 
@@ -197,16 +197,16 @@ function charCount(str) {
 > If pointed values are different, then change the value
 > j++
 
-![alt text](image-12.png)
-![alt text](image-13.png)
+![alt text](img/image-12.png)
+![alt text](img/image-13.png)
 
 ### Sliding Window Pattern
 
-![alt text](image-14.png)
+![alt text](img/image-14.png)
 
 ### Divide and Conquer
 
-![alt text](image-15.png)
+![alt text](img/image-15.png)
 
 ## RECURSION
 
@@ -216,7 +216,7 @@ function charCount(str) {
 
 #### Objective
 
-![alt text](image-16.png)
+![alt text](img/image-16.png)
 
 ### Why Use Recursion
 
@@ -241,7 +241,7 @@ function charCount(str) {
 
 #### The Call Stack
 
-![alt text](image-17.png)
+![alt text](img/image-17.png)
 
 ### Out First Recursive Function
 
@@ -296,11 +296,11 @@ function collectOddValues(arr) {
 }
 ```
 
-![alt text](image-18.png)
+![alt text](img/image-18.png)
 
 #### Pure Recursion Tips
 
-![alt text](image-19.png)
+![alt text](img/image-19.png)
 
 ## SEARCHING ALGORITHMS
 
@@ -308,29 +308,29 @@ function collectOddValues(arr) {
 
 #### Objectives
 
-![alt text](image-20.png)
+![alt text](img/image-20.png)
 
 ### Intro to Linear Search
 
 #### JavaScript has Search!
 
-![alt text](image-21.png)
+![alt text](img/image-21.png)
 
 #### Linear Search
 
-![alt text](image-22.png)
+![alt text](img/image-22.png)
 
 ### Intro to Binary Search
 
 #### Pseudocode
 
-![alt text](image-23.png)
+![alt text](img/image-23.png)
 
 ### Native String Search
 
 #### Pseudocode
 
-![alt text](image-24.png)
+![alt text](img/image-24.png)
 
 ## DATA STRUCTURES INTRODUCTION
 
@@ -338,8 +338,8 @@ function collectOddValues(arr) {
 
 #### What Do They Do?
 
-![alt text](image-26.png)
-![alt text](image-25.png)
+![alt text](img/image-26.png)
+![alt text](img/image-25.png)
 
 #### Why So Many??
 
@@ -375,7 +375,7 @@ function collectOddValues(arr) {
 
 ### Recap
 
-![alt text](image-27.png)
+![alt text](img/image-27.png)
 
 ## STACKS + QUEUES
 
@@ -383,7 +383,7 @@ function collectOddValues(arr) {
 
 #### Objectives
 
-![alt text](image-28.png)
+![alt text](img/image-28.png)
 
 ##### What is a stack?
 
@@ -399,17 +399,17 @@ The last element added to the stack will be the first element removed from the s
 
 ### Big O of Stacks
 
-![alt text](image-29.png)
+![alt text](img/image-29.png)
 
 ### Recap for Stack
 
-![alt text](image-30.png)
+![alt text](img/image-30.png)
 
 ### Intro to Queues
 
 #### Objectives
 
-![alt text](image-31.png)
+![alt text](img/image-31.png)
 
 ##### What is a Queue?
 
@@ -427,11 +427,11 @@ A **FIFO** data structure
 
 ### Big O of Queues
 
-![alt text](image-32.png)
+![alt text](img/image-32.png)
 
 ### Recap for Queue
 
-![alt text](image-33.png)
+![alt text](img/image-33.png)
 
 ## BINARY SEARCH TREES
 
@@ -439,7 +439,7 @@ A **FIFO** data structure
 
 #### Objectives
 
-![alt text](image-34.png)
+![alt text](img/image-34.png)
 
 #### What is a tree?
 
@@ -462,7 +462,7 @@ A data structure that consists of nodes in a **parent/child** relationship
 - Network Routing
 - Abstract Syntax Tree
 - Artificial Intelligence
-  - ![alt text](image-35.png)
+  - ![alt text](img/image-35.png)
 - Folders in Operating Systems
 - Computer File Systems
 
@@ -476,7 +476,7 @@ A data structure that consists of nodes in a **parent/child** relationship
 
 #### BST - Binary Search Trees
 
-![alt text](image-36.png)
+![alt text](img/image-36.png)
 
 ### Searching a Binary Search Tree
 
@@ -488,7 +488,7 @@ A data structure that consists of nodes in a **parent/child** relationship
 
 ### Big O of Binary Search Trees
 
-![alt text](image-37.png)
+![alt text](img/image-37.png)
 
 ## Tree Traversal
 
@@ -514,14 +514,347 @@ A data structure that consists of nodes in a **parent/child** relationship
 
 ### Intro to Heaps
 
+#### Objectives
+
+![alt text](img/image-48.png)
+
+#### What is A Binary Heap?
+
+- **Very** similar to a binary search tree, but with some different rules
+- In a **MaxBinaryHeap**, parent nodes are always larger than child nodes. In a **MinBinaryHeap**, parent nodes are always smaller than child nodes
+
+#### Why do we need to know this?
+
+- Binary Heaps are used to implement Priority Queues, which are **very** commonly used data structures
+- They are also used quite a bit, with **graph traversal** algorithms
+
 ### Heap: ExtractMax Intro
 
 #### Remove and Sink Down
 
 ### Priority Queue Intro
 
+#### What is A Priority Queue?
+
+> A data structure where each elements has a priority. Elements with higher priorities are served before elements with lower priorities.
 > React Fiber Scheduler
+
+![alt text](img/image-49.png)
 
 ## HASH TABLES
 
+### Intro to Hash Tables
+
+#### Objectives
+
+- Explain what a hash table is
+- Define what a hashing algorithm
+- Discuss what makes a good hashing algorithm
+- Understand how collisions occur in a hash table
+- Handle collisions using separate chaining or linear probing
+
+#### WHAT IS A HASH TABLE?
+
+- Hash tables are used to store key-value pairs.
+- They are like arrays, but the keys are not ordered.
+- Unlike arrays, hash tables are fast for all of the following operations: finding values, adding new values, and removing values!
+
+#### WHY SHOULD I CARE?
+
+- Nearly every programming language has some sort of hash table data structure
+- Because of their speed, hash tables are very commonly used!
+
+#### Hash Tables in The Wild
+
+<!-- prettier-ignore -->
+> `Python` has `Dictionaries`
+> `JS` has `Objects` and `Maps*`
+> `Java`, `Go`, & `Scala` have `Maps`
+> `Ruby` has...`Hashes`
+>
+> * Objects have some restrictions, but are basically hash tables
+
+### More About Hash Tables
+
+#### The Hash Part
+
+- To implement a hash table, we'll be using an array.
+- In order to look up values by key, we need a way to **convert keys into valid array indices**.
+- A function that performs this task is called a _hash function_
+
+#### What Makes A Good Hash?
+
+> (not a cryptographically secure one)
+
+1. Fast (i.e. constant time)
+2. Doesn't cluster outputs at specific indices, but distributes uniformly
+3. Deterministic (same input yields same output)
+
+#### Prime numbers? wut.
+
+- The prime number in the hash is helpful in spreading out the keys more uniformly.
+- It's also helpful if the array that you're putting values into has a prime length.
+- You don't need to know why. (Math is complicated!) But here are some links if you're curious.
+
+> Why do hash functions use prime numbers?
+> Does making array size a prime number help in hash table implementation?
+
+### Handling Collisions
+
+- Even with a large array and a great hash function, collisions are inevitable.
+- There are many strategies for dealing with collisions, but we'll focus on two:
+  1. Separate Chaining
+  2. Linear Probing
+
+#### Separate Chaining
+
+- With _separate chaining_, at each index in our array we store values using a more sophisticated data structure (e.g. an array or a linked list).
+- This allows us to store multiple key-value pairs at the same index.
+
+![alt text](img/image-50.png)
+
+#### Linear Probing
+
+- With _linear probing_, when we find a collision, we search through the array to find the next empty slot.
+- Unlike with separate chaining, this allows us to store a single key-value at each index.
+
+![alt text](img/image-51.png)
+
+### Set / Get
+
+![alt text](img/image-52.png)
+
+### Keys / Values
+
+![alt text](img/image-53.png)
+
+### Big O of Hash Tables
+
+![alt text](img/image-54.png)
+
+### Recap
+
+![alt text](img/image-55.png)
+
 ## GRAPHS
+
+### Intro to Graph
+
+#### Objectives
+
+- Explain what a graph is
+- Compare and contrast different types of graphs and their use cases in the real world
+- Implement a graph using an adjacency list
+- Traverse through a graph using BFS and DFS
+- Compare and contrast graph traversal algorithms
+
+#### WHAT ARE GRAPHS
+
+> A **graph data structure** consists of a finite (and possibly mutable) set of vertices or nodes or points, together with a set of unordered pairs of these vertices for an undirected **graph** or a set of ordered pairs for a directed **graph**.
+
+**Nodes + Connections**
+
+#### Uses For Graphs
+
+- Social Networks
+- Location / Mapping
+- Routing Algorithms
+- Visual Hierarchy
+- File System Optimizations
+- EVERYWHERE!
+
+#### Recommendations
+
+- "People also watched"
+- "You might also like..."
+- "People you might know"
+- "Frequently bought with"
+
+#### ESSENTIAL GRAPH TERMS
+
+- **Vertex** - a node
+- **Edge** - connection between nodes
+- **Weighted/Unweighted** - values assigned to distances between vertices
+- **Directed/Undirected** - directions assigned to distanced between vertices
+
+### Storing Graphs
+
+#### Adjacency Matrix
+
+![alt text](img/image-56.png)
+
+#### Adjacency List
+
+![alt text](img/image-57.png)
+
+#### Differences & Big O
+
+![alt text](img/image-58.png)
+
+#### Adjacency List vs. Adjacency Matrix
+
+![alt text](img/image-59.png)
+
+## GRAPH TRAVERSAL
+
+### Intro to Graph Traversal
+
+> **Visiting / Updating / Checking**
+> each vertex in a graph
+
+### Uses of Graph Traversal
+
+![alt text](img/image-60.png)
+
+### Depth-first Traversal
+
+> Explore as far as possible down one branch before "backtracking"
+
+### Breadth-first Traversal
+
+> Visit neighbors at current depth first!
+
+## DIJKSTRA's ALGORITHM!
+
+### Intro to Dijkstra's and Prerequisites
+
+#### Objectives
+
+- Understand the importance of Dijkstra's
+- Implement a Weighted Graph
+- Walk through the stepss of Dijkstra's
+- Implement Dijkstra's using a native priority queue
+- Implement Dijkstra's using a binary heap priority queue
+
+### Who was Dijkstra and what is his Algorithm?
+
+#### What is it?
+
+> One of the most famous and widely used algorithms around!
+>
+> Finds the shortest path between two vertives on a graph
+>
+> "What's the fastest way to get from point A to point B?"
+
+#### Who was he?
+
+- **Edsger Dijkstra** was a Dutch programmer physicist, essayist, and all around smarty-pants
+- He helped to advance the field of computer science from an "art" to an academic discipline
+- Many of his discoveries and algorithms are still commonly used to this day
+
+![alt text](img/image-38.png)
+
+#### Why is it useful?
+
+- GPS
+  - finding fastest route
+- Network Routing
+  - finds open shortest path for data
+- Biology
+  - used to model the spread of viruses among humans
+- Airline tickets
+  - finding cheapest route to your destination
+- Many other uses!
+
+## DYNAMIC PROGRAMMING
+
+### Intro to Dynamic Programming
+
+#### Objectives
+
+- Define that dynamic programming is
+- Explain what overlapping subproblems are
+- Understand what optimal substructure is
+- Solve more challenging problems using dynamic programming
+
+#### What is Dynamic Programming
+
+> "A method for solving complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions."
+
+### Overlapping Subproblems
+
+> It only works on problems with...
+>
+> - Optimal Substructure
+> - Overlapping Subproblems
+
+#### Overlapping Subproblems
+
+A problem is said to have **overlapping subproblems** if it can be broken down into subproblems which are reused several times
+
+- Overlapping Subproblems
+  ![alt text](img/image-39.png)
+  ![alt text](img/image-40.png)
+- Not Overlapping
+  ![alt text](img/image-41.png)
+
+### Optimal Substructure
+
+A problem is said to have optimal substructure if an **optimal solution** can be constructed from optimal solutions of its subproblems
+
+![alt text](img/image-42.png)
+
+### Write a Recursive Solution
+
+![alt text](img/image-43.png)
+![alt text](img/image-44.png)
+
+### The Time Complexity of Our Solution
+
+![alt text](img/image-45.png)
+
+![alt text](img/image-46.png)
+![alt text](img/image-47.png)
+
+### The Problem With Our Solution
+
+#### Enter Dynamic Programming
+
+> ## "Using past knowledge to make solving a future problem easier"
+>
+> "A method for solving complex problem by breaking it down into a collection of simpler subproblems, solving each of those subproblems just once, and storing their solutions."
+
+### Enter Memoization!
+
+> Storing the results of expensive function calls and returning the cached result when the same inputs occur again
+
+#### A Memo-ized Solution
+
+```js
+function fib(n, memo = []) {
+  if (memo[n] !== undefined) return memo[n]
+
+  if (n <= 2) return 1
+  const res = fib(n - 1, memo) + fib(n - 2, memo)
+  memo[n] = res
+  return res
+}
+
+function fib_memoized(n, memo = [undefined, 1, 1]) {
+  if (memo[n] !== undefined) return memo[n]
+  const res = fib(n - 1, memo) + fib(n - 2, memo)
+  memo[n] = res
+  return res
+}
+```
+
+### Tabulation: A Bottom Up Approach
+
+> "Bottom Up"
+
+- Storing the result of a previous result in a "table"(usually an array)
+- Usually done using **iteration**
+- Better **space complexity** can be achieved using tabulation
+
+```js
+function fib_tabluation(n) {
+  if (n <= 2) return 1
+
+  const fibNums = [0, 1, 1]
+  for (i = 3; i <= n; i++) {
+    fibNums[i] = fibNums[i - 1] + fibNums[i - 2]
+  }
+
+  return fibNums[n]
+}
+```

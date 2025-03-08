@@ -75,11 +75,34 @@ class Graph {
       visited[vertex] = true
       result.push(vertex)
 
-      // 以相反顺序入栈
+      // Push in reverse order
       for (let i = this.adjacencyList[vertex].length - 1; i >= 0; i--) {
         const v = this.adjacencyList[vertex][i]
         if (!visited[v]) trackingStack.push(v)
       }
+    }
+
+    return result
+  }
+
+  BFS(startVertex) {
+    if (!this.adjacencyList[startVertex]) return []
+
+    const queue = []
+    const result = []
+    const visited = {}
+
+    queue.push(startVertex)
+    while (queue.length) {
+      const vertex = queue.shift()
+      if (visited[vertex]) continue
+
+      visited[vertex] = true
+      result.push(vertex)
+
+      this.adjacencyList[vertex].forEach(v => {
+        if (!visited[v]) queue.push(v)
+      })
     }
 
     return result
