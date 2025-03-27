@@ -332,6 +332,28 @@ function collectOddValues(arr) {
 
 ![alt text](img/image-24.png)
 
+## SORTING ALGORITHM
+
+### Simple Sorting
+
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+
+### "Crazier" Sort
+
+- Merge Sort
+- Quick Sort
+- Radix Sort
+
+### Radix Sort
+
+#### Intro
+
+![alt text](img/image_61.png)
+
+![alt text](img/image_62.png)
+
 ## DATA STRUCTURES INTRODUCTION
 
 ### Which Data Structure Is The Best

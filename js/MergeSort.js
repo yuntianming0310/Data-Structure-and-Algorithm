@@ -75,4 +75,43 @@ function mergeSortIn(arr, comparator = (a, b) => a - b) {
   return merge(left, right)
 }
 
-console.log(mergeSortIn([1, 10, 3, 7, 2, 6, 12, 23, -1]))
+function optimizedMergeSort(arr) {
+  const aux = [...arr]
+
+  function mergeSortHelper(start, end) {
+    if (end - start <= 1) return
+
+    const mid = Math.floor((start + end) / 2)
+    mergeSortHelper(start, mid)
+    mergeSortHelper(mid, end)
+    optimizedMerge(arr, aux, start, mid, end)
+  }
+
+  mergeSortHelper(0, arr.length)
+  return arr
+}
+
+function optimizedMerge(arr, aux, start, mid, end) {
+  let i = start,
+    j = mid,
+    k = start
+
+  while (i < mid && j < end) {
+    if (arr[i] <= arr[j]) {
+      aux[k++] = arr[i++]
+    } else {
+      aux[k++] = arr[j++]
+    }
+  }
+
+  while (i < mid) aux[k++] = arr[i++]
+  while (j < end) aux[k++] = arr[j++]
+
+  for (let i = start; i < end; i++) {
+    arr[i] = aux[i]
+  }
+}
+
+// module.exports = mergeSort
+
+module.exports = optimizedMergeSort
